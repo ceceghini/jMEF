@@ -38,6 +38,9 @@ public class MefPdf {
 		String s;
 		
 		i = s_file.indexOf(".ssa");
+		if (i == -1)
+			i = s_file.indexOf(".ssn");
+		
 		s = s_file.substring(1, i+4);
 		
 		i = s.indexOf("hainviatoilfile");
