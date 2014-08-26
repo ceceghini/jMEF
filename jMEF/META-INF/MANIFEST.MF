@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/classes12.jar lib/itext-1.02b.jar
+Main-Class: it.pointec.mef.ui.Mef
